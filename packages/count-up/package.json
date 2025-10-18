@@ -1,0 +1,28 @@
+{
+  "name": "count-up",
+  "version": "0.1.0",
+  "description": "A simple counting library that converts numbers to words",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "dev": "tsup src/index.ts --format cjs,esm --dts --watch",
+    "clean": "rimraf dist"
+  },
+  "keywords": ["counting", "numbers", "words"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "to-words": "^3.6.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "tsup": "^7.2.0",
+    "rimraf": "^5.0.5",
+    "@types/node": "^20.8.10"
+  }
+}
