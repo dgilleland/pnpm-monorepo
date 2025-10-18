@@ -1,0 +1,9 @@
+packages:
+  # all packages in subdirs of packages/ and components/
+  - 'packages/**'
+  - 'apps/**'
+  # exclude packages that are inside test directories
+  - '!**/test/**'
+  # exclude packages in NoTrack and RnD folders (case insensitive)
+  - '!**/[Nn]o[Tt]rack/**'
+  - '!**/[Rr]n[Dd]/**'
