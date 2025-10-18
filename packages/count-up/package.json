@@ -15,7 +15,7 @@
   },
   "keywords": ["counting", "numbers", "words"],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "to-words": "^3.6.1"
   },
